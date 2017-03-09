@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+  background: #fff url(../images/bg-login.png); 
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+.header {
+	background: #EAF4FB;
+	padding: 15px;
+	-webkit-box-shadow: -4px 5px 5px -6px rgba(0,0,0,0.44);
+	-moz-box-shadow: -4px 5px 5px -6px rgba(0,0,0,0.44);
+	box-shadow: -4px 5px 5px -6px rgba(0,0,0,0.44);
+}
+.header .logo {
+	width: 150px;
+	height: 40px;
+}
+.header .head-menu {
+	font-size: 30px;	
+}
+.header .head-menu a:hover,.header .head-menu a {
+	text-decoration: none;
+}
+
+/* Login */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 0;
+  margin: auto;
+  
+}
+.login-page .log-logo {
+	text-align: center;
+	margin: 30px auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #f9f9f9;
+  border-radius: 5px;
+  max-width: 360px;
+  margin: 0 auto 80px;
+  padding: 45px;
+  text-align: center;
+ -webkit-box-shadow: 0px 1px 4px -2px rgba(0,0,0,0.32);
+-moz-box-shadow: 0px 1px 4px -2px rgba(0,0,0,0.32);
+box-shadow: 0px 1px 4px -2px rgba(0,0,0,0.32);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #fff;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #f2f2f2;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #060E5F;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #00B1EE;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #069;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body.log {
+  background: #fff url(../images/bg-login.png); 
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.main {
+}
+.main .page-title {
+	font-size: 25px;
+	color: #060E5F;
+	margin: 20px 0px;
+}
+.main .sidemenu {
+	width: 100%;
+	height: 100%;
+	padding: 50px 0px;
+}
+.main .sidemenu ul {
+	margin: 20px 0px; padding: 10px 10px 20px 10px; list-style: none;
+	background: #fff;
+	border: 1px solid #f3f3f3;
+	border-radius: 5px;
+}
+.main .sidemenu ul li {
+	 padding: 10px;
+	 border-bottom: 1px solid #ccc;
+	 width: 100%;
+}
+.main .sidemenu ul li i {
+	margin-right: 10px;
+	width: 20px;
+}
+.main .sidemenu ul li a {
+	color: #060E5F;
+	display: block;
+	width: 100%;
+}
+.main .sidemenu ul li a:hover {
+	text-decoration: none;
+	color: #CCC;
+}
+.main .main-content {
+	background: #fff;
+	margin-top: 20px;
+	-webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.25);
+	box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.25);
+	overflow: hidden;
+	border-radius: 5px
+}
+.main .main-content .sidemain {
+	padding: 20px;
+}
+.main .main-content .mainy {
+	padding: 20px;
+	border-left: 2px solid #f3f3f3;
+}
+/* Tabs panel */
+.tabbable-panel {
+  padding: 10px;
+  margin-bottom: 20px;
+  min-height: 250px;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #f3565d;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* Below tabs mode */
+
+.tabbable-line.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+.tabbable-line.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #fbcdcf;
+}
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #f3565d;
+}
+.tabbable-line.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+.text-bold i {
+	margin-right: 10px;
+}
+a.social-link {
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+/* Cardy */
+.card-widget {
+	padding: 10px;
+	min-height: 50px;
+-webkit-box-shadow: 0px 0px 5px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px -3px rgba(0,0,0,0.75);
+width: 100%;
+margin-top: 30px;
+}
+.card-widget h4.title {
+}
+.card-widget.grey {
+	background: #f3f3f3;
+}
+.card-widget.orange {
+	background: #F60;
+	color: #fff;
+	overflow: hidden;
+}
+.card-widget.green {
+	background: #093;
+	color: #fff;
+}
+.card-widget.blue {
+	background: #036;
+	color: #fff;
+}
+.card-widget.teal {
+	background: teal;
+	color: #fff;
+}
