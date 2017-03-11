@@ -1,4 +1,4 @@
-﻿@media (min-width: 992px){
+@media (min-width: 992px){
     .typo-line{
         padding-left: 140px;
         margin-bottom: 40px;
@@ -169,4 +169,39 @@ ul.listuseful li {
 }
 .manage .item-inter td.rating {
 	color: royalblue;
+}
+/* Interview page */
+.interview-side, .interview-main {
+	padding: 0 10px;
+	overflow: hidden;
+}
+.interview-side img {
+	max-width: 100px;
+	float:left;
+	margin: 20px;
+	border: 1px solid #f3f3f3;
+}
+.interview-side h4, .interview-main h4 {
+	margin: 5px 0px; padding: 5px 0px;
+}
+.interview-side ul {
+	margin: 10px 0px; padding: 10px;
+	list-style: disc; 
+}
+.interview-side ul li {
+	display: block;
+	border-top: 1px solid #f3f3f3;
+}
+.interview-side ul li a {
+	 display: block;
+	 padding: 10px;
+	 width: 100%;
+}
+.interview-side ul li a:hover {
+	background: #f9f9f9;
+	color: #666;
+}
+.interview-side ul li a.active {
+	background: #f3f3f3 url('../img/interview-arrow.png') right no-repeat;
+	color: #666;
 }
